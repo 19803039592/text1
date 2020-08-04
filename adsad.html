@@ -1,0 +1,735 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>无标题文档</title>
+    <style>
+        body{
+            background:#0F0;
+            margin:0px;
+            padding:0px;
+            font-size:12px;
+            font-family:Verdana, Geneva, sans-serif;
+
+
+        }
+
+
+
+
+        #header{
+            margin:0px;
+            padding:0px;
+            background:#E5E5E5;
+        }
+        #header ul{
+            list-style-type:none;
+            margin:0px 80px;
+            padding:0px;
+            height:30px;
+            background:#E5E5E5;
+
+        }
+        #header ul li{
+            font-size:14px;
+            float:left;
+            text-align:center;
+            width:95px;
+            padding-top:5px;
+        }
+        #header ul li a{
+            text-decoration:none;
+            color:#666;
+        }
+        #header ul li a:hover{
+            color:#F00;
+        }
+
+        <!--中间体-->
+            #middle{
+                margin:0px;
+                padding:0px;
+                height:750px;
+                text-align:left;/*表示header中的文本内容左对齐*/
+                background:#FFF;
+            }
+        #m1{
+            margin:0px;
+            padding:0px;
+            background:#FFF;
+            height:100px;
+        }
+
+        #m1 img{
+            margin-top:10px;
+            margin-left:100px;
+        }
+        #m1 #search{
+            margin-top:-60px;
+            margin-left:820px;
+            height:40px;
+
+        }
+
+
+        #m1 .txt{
+            padding:10px 25px;
+            text-align:left;
+            font-size:14px;
+        }
+        #m1 .button{
+            padding:9px 16px;
+            margin-left:-5px;
+            background:#F00;
+            color:#FFF;
+            font-size:14px;
+            font-weight:800;
+        }
+        #m2{
+            margin:0px;
+            padding:0px;
+            background:#FFF;
+            height:50px;
+        }
+        #m2 ul{
+            margin-left:40px;
+            list-style-type:none;
+            float:left;
+
+        }
+        #m2 ul li{
+            margin-top:-2px;
+            padding:10px 20px;
+            float:left;
+            font-size:18px;
+            font-weight:580;
+
+        }
+        #m2 ul li a{
+            text-decoration:none;
+            color:#000;
+        }
+        #m2 ul li a:hover{
+            color:#F00;
+        }
+        #m2 table{
+
+            padding-left:650px;
+            height:50px;
+            background:#FFF;
+        }
+
+        #m3{
+            margin:0px 90px;
+            padding:0px;
+            background:#F1F1F1;
+            width:1020px;
+            height:40px;
+        }
+        #m3 img{
+            margin-left:10px;
+            margin-top:-16px;
+        }
+
+        #m4{
+
+            margin:0px 90px;
+            padding:0px;
+            width:1020px;
+
+            background:#FCF;
+            height:120px;
+            float:left;
+        }
+        #m4 ul li{
+            list-style-type:none;
+        }
+
+        #m4 .c1{
+
+            padding:15px;
+            width:100px;
+            float:left;
+        }
+        #m4 .c2{
+
+            padding-top:10px;
+            margin-left:-60px;
+            float:left;
+        }
+        #m4 .c2 img{
+            width:15px;
+            height:11px;
+        }
+        #m4 .c2 a{
+            color:#999;
+            font-weight:500;
+            text-decoration:none;
+        }
+        #m4 .c2 a:hover{
+            color:#F00;
+        }
+        #m4 .c3{
+
+            padding-top:10px;
+            float:left;
+        }
+        #m4 .c4{
+
+            padding:10px 10px 30px 40px;
+            float:left;
+        }
+        #m4 .c5{
+            padding:20px 20px 100px 20px;
+
+            float:left;
+        }
+        #m4 .c5 table{
+            border-collapse:collapse;
+        }
+
+        #m4 .c5 table td{
+            border:#666 solid thin;
+        }
+
+        #m4 .c6{
+            padding-top:10px;
+            padding-right:30px;
+            float:left;
+        }
+        #m4 .c7{
+            padding-top:10px;
+            float:left;
+        }
+        #m4 .c7 ul li a{
+            color:#666;
+            text-decoration:none;
+        }
+        #m4 .c7 ul li a:hover{
+            color:#F00;
+        }
+
+        #m5{
+            margin:0px 90px;
+            padding:0px;
+            border:#CCC thin solid;
+            height:50px;
+            width:1020px;
+            float:left;
+        }
+        #m5 .c1 ul{
+            padding-left:10px;
+            list-style-type:none;
+        }
+        #m5 .c1 ul li{
+            padding:3px;
+            float:left;
+            color:#666;
+        }
+        #m5 .c1 a{
+            text-decoration:none;
+            color:#666;
+        }
+        #m5 .c1 a:hover{
+            color:#F00;
+        }
+
+        #m5 .c2{
+            margin-top:-11px;
+            height:50px;
+
+        }
+        #m5 .c2 ul{
+            height:20px;
+            color:#666;
+            margin-top:0px;
+            float:left;
+            margin-left:300px;
+            list-style-type:none;
+        }
+
+        #m5 .c2 ul li{
+            float:left;
+            width:80px;
+        }
+        #m5 #L0{
+            margin-left:75px;
+            width:30px;
+            height:20px;
+
+            color:#666;
+        }
+        #m5 #L1{
+            margin-top:-5px;
+            width:100px;
+            height:30px;
+
+            font-size:18px;
+            color:#F00;
+
+        }
+        #m5 #L2{
+            margin-top:-11px;
+            margin-left:10px;
+            padding:10px;
+            padding-left:20px;
+            width:80px;
+            background:#F00;
+            font-size:20px;
+            font-weight:800;
+            color:#FFF;
+
+        }
+        #m6{
+            margin:0px 90px;
+            padding:0px;
+
+            height:50px;
+            width:1020px;
+            float:left;
+        }
+        #m6 ul{
+            list-style-type:none;
+            margin-left:-25px;
+            margin-top:30px;
+        }
+
+        #m6 ul li{
+            float:left;
+            width:80px;
+        }
+        #m6 ul li a{
+            text-decoration:none;
+
+        }
+        #m6 ul li a:hover{
+            color:#F00;
+
+        }
+
+        #m7{
+            margin:0px 90px;
+            padding:0px;
+            border:#CCC thin dashed;
+            height:300px;
+            width:1020px;
+            float:left;
+        }
+        #m7 ul{
+            list-style-type:none;
+        }
+        #m7 ul li{
+            margin-left:-10px;
+            float:left;
+            width:250px;
+        }
+        #m8{
+
+            margin:0px 90px;
+            padding:0px;
+
+            height:30px;
+            width:1020px;
+            float:left;
+        }
+        #m8 ul{
+
+            width:1000px;
+            height:25px;
+
+            margin-top:-40px;
+            margin-left:20px;
+
+            list-style-type:none;
+        }
+        #m8 ul li{
+
+            margin-left:0px;
+            float:left;
+            width:250px;
+        }
+
+
+
+        #footer{
+            margin:0px;
+            padding-top:5px;
+            background:#E5E5E5;
+
+        }
+        #foot1{
+            margin:0px auto;
+            padding:0px;
+            height:75px;
+
+        }
+        #foot1 ul{
+            margin:10px 50px;
+            list-style-type:none;
+            background:#E5E5E5;
+            text-align:center;
+            float:left;
+        }
+        #foot1 ul li{
+
+            padding-top:10px;
+            background:#E5E5E5;
+            text-align:center;
+            float:left;
+            font-size:20px;
+            font-weight:900;
+        }
+        #foot2{
+            margin:0px auto;
+            padding:0px;
+            height:150px;
+            background:#E5E5E5;
+
+        }
+        #foot2 ul{
+            list-style-type:none;
+            padding-top:10px;
+
+        }
+        #foot2 ul li{
+            width:200px;
+            text-align:center;
+            float:left;
+            font-size:14px;
+        }
+        #foot2 ul li a{
+            text-decoration:none;
+            color:#666;
+            font-size:12px;
+        }
+        #foot2 ul li a:hover{
+            color:#F00;
+        }
+
+        #foot3{
+            margin:0px auto;
+            padding:0px;
+            height:120px;
+            background:#E5E5E5;
+        }
+        #foot3 table{
+            border-collapse:collapse;
+            margin:10px 150px;
+            text-align:center;
+        }
+        #foot3 table td{
+            padding:2px;
+
+        }
+
+
+        #foot3 table a{
+            font-size:14px;
+            text-decoration:none;
+            color:#666;
+        }
+        #foot3 table a:hover{
+            color:#F00;
+        }
+        #foot3 p{
+            color:#666;
+            margin:0 250px;
+        }
+        #foot3 p a{
+            color:#666;
+            text-decoration:none;
+
+        }
+        #foot3 p a:hover{
+            color:#F00;
+        }
+
+        #foot3 .p1{
+            color:#666;
+            margin:0 180px;
+        }
+        #foot3 .p1 a{
+            color:#666;
+            text-decoration:none;
+        }
+        #foot3 .p1 a:hover{
+            color:#F00;
+        }
+        #foot3 .p2{
+            color:#666;
+            margin:0 320px;
+        }
+        #foot3 .p2 a{
+            color:#666;
+            text-decoration:none;
+        }
+        #foot3 .p2 a:hover{
+            color:#F00;
+        }
+
+
+
+
+
+
+
+
+
+    </style>
+
+</head>
+
+<body>
+<!--头部-->
+<div id='header'>
+    <ul>
+        <li><a href="#">京东首页</a></li>
+        <li><a href="#">北京</a></li>
+        <li><a href="#">你好，请登录</a></li>
+        <li><a href="#" style="color:#F00">免费注册</a></li>
+        <li><a href="#">我的订单</a></li>
+        <li><a href="#">我的京东</a></li>
+        <li><a href="#">京东会员</a></li>
+        <li><a href="#">企业采购</a></li>
+        <li><a href="#">客户服务</a></li>
+        <li><a href="#">网站导航</a></li>
+        <li><a href="#">手机京东</a></li>
+    </ul>
+</div>
+
+<!--中间部分-->
+<div id='middle'>
+    <div id='m1'>
+        <img src="">
+        <div id='search'>
+            <input class='txt' type='text' />
+            <input class='button' type='submit' value='搜索' />
+        </div>
+    </div>
+
+    <div id='m2'>
+        <ul>
+            <li><a href='#' style="color:#F00">全部潮牌</a></li>
+            <li><a href='#'>博哥潮牌</a></li>
+        </ul>
+        <table>
+            <tr>
+                <td>配送至:</td>
+                <td>
+                    <select name='address'>
+                        <option value="">蔚县</option>
+                        <option value="A">湖畔新城</option>
+                        <option value="B">湖畔新城</option>
+                        <option value="C">五号楼</option>
+                        <option value="D">一单元</option>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id='m3'>
+
+    </div>
+
+    <div id='m4'>
+        <div class='c1'>
+
+            <img src="28a98e936d475443.png" height="100" width="100"/></div>
+
+        <div class='c2'>
+            <ul>
+                <li>清凉爽快小宝贝 谁穿谁得劲</li>
+                <li>只限帅哥 3xl</li>
+                <li style="color:#03F">支持7天无理由退货</li>
+                <li><img src="t012e983901096737f9.jpg" ><a href="#">选延保</a></li>
+            </ul>
+        </div>
+
+        <div class='c3'>
+            <ul>
+                <li>颜色:黑</li>
+                <li>尺码:3xl</li>
+            </ul>
+        </div>
+
+        <div class='c4'>
+            <ul>
+                <li>￥7698.00</li>
+            </ul>
+        </div>
+
+        <div class='c5'>
+            <table>
+                <tr>
+                    <td>&nbsp;-&nbsp;</td>
+
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+                    <td>&nbsp;+&nbsp;</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class='c6'>
+            <ul>
+                <li>￥7698.00</li>
+            </ul>
+        </div>
+
+        <div class='c7'>
+            <ul>
+                <li><a href="#">删除</a></li>
+                <li><a href="#">移到我的关注</a></li>
+                <li><a href="#">加到我的关注</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div id='m5'>
+        <div class="c1">
+            <ul>
+                <li>全选</li>
+                <li><a href="#">删除选中的商品</a></li>
+                <li><a href="#">移到我的关注</a></li>
+                <li><a href="#" style="color:#000">清理购物车</a></li>
+            </ul>
+        </div>
+
+        <div class='c2'>
+            <ul>
+                <li>已选择1件商品</li>
+                <li id='L0'>总价:</li>
+                <li id="L1">￥7698.00</li>
+                <li id='L2'>去结算</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div id='m6'>
+        <ul>
+            <li><a href="#" style="color:#F00">猜你喜欢</a></li>
+            <li><a href="#">随手购</a></li>
+            <li><a href="#">我的关注</a></li>
+            <li><a href="#">最近浏览</a></li>
+        </ul>
+    </div>
+
+    <div id='m7'>
+        <ul>
+            <li><img src="825561e0a34c188d.jpg" height="100" width="100"/></li>
+            <li><img src="266054954085388494.jpg" height="100" width="100"/></li>
+            <li><img src="a4d15d9b1d5860ab.jpg" height="100" width="100"/></li>
+            <li><img src="ab18acc5ee96f02f.jpg.webp.jpg" height="100" width="100"/></li>
+        </ul>
+    </div>
+
+    <div id='m8'>
+        <ul>
+            <li><a href="#"><img src="b2503baf89b0b839.jpg.webp.jpg" height="100" width="100"/></a></li>
+            <li><a href="#"><img src="lALPGojJ9DYl5tnNAQTMvg_190_260.png_720x720q90g.jpg" height="100" width="100"/></a></li>
+            <li><a href="#"><img src="4S]I{TCPX9~4XAKIQSBJ}~Y.png" height="100" width="100"/></a></li>
+            <li><a href="#"><img src="G~64@SD(JI}@]JL(YY`@9}4.png" height="100" width="100"/></a></li>
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+<!--尾部-->
+<div id='footer'>
+    <div id='foot1'>
+        <ul>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li>
+            <li>品类齐全，轻松购物</li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li>
+            <li>多仓直发，急速配送</li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li>
+            <li>正品行货，精致服务</li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li>
+            <li>天天低价，畅选无忧</li>
+        </ul>
+    </div>
+
+    <hr />
+
+    <div id='foot2'>
+        <ul>
+            <li>购物指南<li>
+            <li>配送方式</li>
+            <li>支付方式</li>
+            <li>售后服务</li>
+            <li>特色服务</li>
+            <li><a href="#">购物流程</a></li>
+            <li><a href="#">上门自提</a></li>
+            <li><a href="#">货到付款</a></li>
+            <li><a href="#">售后政策</a></li>
+            <li><a href="#">夺宝岛</a></li>
+
+            <li><a href="#">会员介绍</a></li>
+            <li><a href="#">211限时达</a></li>
+            <li><a href="#">在线支付</a></li>
+            <li><a href="#">价格保护</a></li>
+            <li><a href="#">DIY装机</a></li>
+
+            <li><a href="#">生活旅行/团购</a></li>
+            <li><a href="#">配送服务查询</a></li>
+            <li><a href="#">分期付款</a></li>
+            <li><a href="#">退款说明</a></li>
+            <li><a href="#">延保服务</a></li>
+
+            <li><a href="#">常见问题</a></li>
+            <li><a href="#">配送费收取标准</a></li>
+            <li><a href="#">邮局汇款</a></li>
+            <li><a href="#">返修/退换货</a></li>
+            <li><a href="#">京东E卡</a></li>
+            <li><a href="#">大家电</a></li>
+            <li><a href="#">海外配送</a></li>
+            <li><a href="#">公司转账</a></li>
+            <li><a href="#">取消订单</a></li>
+            <li><a href="#">京东通信</a></li>
+
+            <li><a href="#">联系客服</a></li>
+
+            <li><a href="#">京东JD+</a></li>
+
+        </ul>
+    </div>
+
+    <hr />
+
+    <div id='foot3'>
+        <table>
+            <tr>
+                <td><a href="#">关于我们</a></td>
+                <td><a href="#">联系我们</a></td>
+                <td><a href="#">联系客服</a></td>
+                <td><a href="#">合作招商</a></td>
+                <td><a href="#">商家帮助</a></td>
+                <td><a href="#">营销中心</a></td>
+                <td><a href="#">手机京东</a></td>
+                <td><a href="#">友情链接</a></td>
+                <td><a href="#">销售联盟</a></td>
+                <td><a href="#">京东社区</a></td>
+                <td><a href="#">风险监测</a></td>
+                <td><a href="#">隐私政策</a></td>
+                <td><a href="#">京东公益</a></td>
+                <td><a href="#">English Site</a></td>
+                <td><a href="#">Contact Us</a></td>
+            </tr>
+        </table>
+        <p><a href="#">京公网安备</a>&nbsp;|&nbsp;京ICP证070359&nbsp;|<a href="#">&nbsp;互联网药品信息服务资格证编号(京)-经营性-2014-0008&nbsp;</a>|&nbsp;新出发京零&nbsp;字第大120007号</p>
+
+        <p class="p1">互联网出版许可证编号新出网证(京)字150号&nbsp;<a href="#">|&nbsp;出版物许可证&nbsp;</a><a href="#">|&nbsp;网路文化经营许可证京网文[2014]2148-348号&nbsp;</a>|&nbsp;违法和不良信息举报电话:4006561155</p>
+        <p class="p2">Copynight&nbsp;@&nbsp;2004-2008&nbsp;京东JD.com版权所有&nbsp;|&nbsp;消费者维权热线:4003994333&nbsp;&nbsp;<a href="#">经营证照</a></p>
+
+    </div>
+</div>
+
+</body>
+
+
+</html>
